@@ -1,0 +1,37 @@
+.appDiv {
+  display: flex;
+  padding: 25px;
+  padding-top: 100px;
+}
+
+.ingListDiv, .burgPaneDiv {
+  border: 2px solid black;
+  width: 300px;
+  height: 400px;
+  margin: 30px;
+  text-align: center;
+}
+
+.ing {
+  margin: 3px;
+  height: 22px;
+}
+
+.burgPaneDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+button {
+  margin: 10px;
+}
+
+form {
+  margin-top: 300px;
+}
+
+input {
+  display: block;
+  margin-bottom: 10px;
+}
